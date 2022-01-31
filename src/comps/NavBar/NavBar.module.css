@@ -1,0 +1,75 @@
+
+
+
+.NavBar{
+
+position: absolute;
+ z-index: 10;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+    
+
+}
+
+
+
+
+
+
+    .burgerMenu{
+ 
+    width: 100px;
+    position: flex;
+    margin-left: 5vh;
+    margin-top: 3vh;
+
+}
+
+.login{
+    margin-right: 5vh;
+    margin-top: 5vh;
+    font-weight: 900;
+        
+
+}
+
+.burgerMenuItem{
+ 
+border-radius: 100px;
+    width: 75px;
+    height: 9px;
+    background-color: black;
+    margin-top:11px ;
+
+}
+
+
+
+.login{
+    font-family: Comfortaa;
+    color: black;
+    font-size: 1.3em
+}
+
+
+@media(max-width:1000px){
+    .login{
+  
+    font-size: 1em
+}
+
+.burgerMenuItem{
+ 
+border-radius: 100px;
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    margin-top:11px ;
+
+}
+
+}

@@ -1,0 +1,15 @@
+
+
+.Footer{
+position: absolute;
+bottom: 0px;
+
+    background-image: url('../../assets/Asset\ 1.svg');
+    background-color: black;
+    background-repeat: repeat;
+    background-size: 15px;
+  
+    height: 1000%;
+    width: 100%;
+opacity: 0.1;
+}

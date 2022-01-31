@@ -1,0 +1,117 @@
+
+
+.SecondBlock{
+
+    max-width:55% ;
+    margin: auto;
+    margin-bottom: 24.5vh;
+}
+
+
+
+.title{
+    margin-top: 0px;
+    font-family: Comfortaa;
+    color: white;
+    font-size: 3.5em;
+    text-align: left;
+
+ 
+}
+
+.paragraph{
+    margin-top: 0px;
+    font-family: Comfortaa;
+    color: white;
+ 
+   
+    font-size: 1.3em;
+    line-height: 2.031;
+    text-align: left;
+    
+}
+
+
+.skillsContainer{
+
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+.skillsContainer >div{
+
+ 
+    max-width: 70%;
+    margin-top: 5vh;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    font-family: Comfortaa;
+    font-weight: 900;
+    
+}
+
+
+
+@media (max-width:1000px){
+
+
+    .SecondBlock{
+        max-width: 90%;
+    }
+.title{
+    font-size: 2em;
+   
+    text-align: center;
+ 
+}
+
+    .paragraph{
+    margin-top: 0px;
+    font-family: Comfortaa;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    line-height: 2.53;
+    margin-bottom: 5.5vh;
+
+   
+}
+
+   .skillsContainer {
+
+       display: flex;
+
+ 
+    max-width: 95%;
+    margin: auto;
+  
+} 
+
+
+.skillsContainer >div{
+
+margin: auto;
+
+margin-top: 10px;
+    font-size: 1em;
+  
+    
+}
+
+
+
+
+
+
+    
+}

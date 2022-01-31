@@ -1,0 +1,42 @@
+.GridWrap{
+
+
+position: absolute;
+bottom: 0px;
+left: 0px;
+pointer-events: none;
+background-image: url('../../assets/Asset\ 1.svg');
+background-repeat: repeat;
+background-size: 7px;
+height: 200%;
+width: 100%;
+opacity: 0.09;
+animation-name: appear;
+animation-duration: 1s;
+z-index: 30;
+
+
+}
+
+
+@media(max-width:1000px){
+
+.GridWrap{
+    background-size:30px ;
+   background-size: 20px;
+}
+}
+
+
+
+@keyframes appear{
+
+
+    from{
+        opacity: 0.9;
+        }
+    to{
+        opacity: 0.1;
+       
+        }
+}
