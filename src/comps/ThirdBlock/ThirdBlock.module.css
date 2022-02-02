@@ -1,0 +1,112 @@
+
+
+.ThirdBlock{
+    color: white;
+    padding: 5vh 0;
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Comfortaa;
+
+}
+
+.ThirdBlock > div {
+max-width: 30vw;
+padding: 5vh ;
+
+    
+}
+
+
+.skillsContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+.skillsContainer >div{
+
+
+    max-width: 70%;
+    margin-top: 5vh;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    font-family: Comfortaa;
+    font-weight: 900;
+    
+}
+
+
+
+
+.title{
+   font-size: 3.5rem;
+   
+}
+
+.paragraph{
+    
+   
+   font-size: 1.3em;
+    line-height: 2.031;
+ 
+
+}
+
+
+
+@media(max-width:1000px){
+
+
+    .ThirdBlock{
+        flex-direction: column;
+        max-width: 98%;
+    }
+
+
+    .ThirdBlock > div{
+        max-width: 100%;
+        
+    }
+
+    .title{
+    font-size: 2em;
+   
+    text-align: center;
+ 
+}
+
+    .paragraph{
+    margin-top: 0px;
+    font-family: Comfortaa;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    line-height: 2.53;
+    margin-bottom: 5.5vh;
+
+   
+}
+
+
+.skillsContainer{
+
+
+    justify-content: space-evenly;
+ 
+
+
+}
+
+}

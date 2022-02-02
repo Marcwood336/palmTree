@@ -2,9 +2,11 @@
 
 .SecondBlock{
 
-    max-width:55% ;
+    box-sizing: border-box;
+    max-width:70% ;
     margin: auto;
-    margin-bottom: 24.5vh;
+    padding: 5vh 0vh 10vh 0;
+   
 }
 
 
@@ -36,7 +38,7 @@
 
     display: flex;
     flex-direction: row;
-  
+   
     justify-content: space-between;
     max-width: 100%;
     margin: auto;
@@ -65,7 +67,7 @@
 
 
     .SecondBlock{
-        max-width: 90%;
+        max-width: 98%;
     }
 .title{
     font-size: 2em;
@@ -91,8 +93,9 @@
 
        display: flex;
 
- 
-    max-width: 95%;
+   
+    justify-content: space-around;
+    max-width: 100%;
     margin: auto;
   
 } 

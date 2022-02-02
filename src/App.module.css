@@ -4,6 +4,15 @@
 
 
 .App{
-
+background-color: black;
 margin:0px;
+height: 120%;
+
 }
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+    }

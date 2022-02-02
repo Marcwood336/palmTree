@@ -4,10 +4,11 @@ import React from 'react'
 const Background = (props)=>{
 
 return(<div className={classes.Background}>
-              
-                   <div>{props.children}</div> 
-        
-             
+
+              <div className={classes.secondLayerBG} >
+
+               {props.children}
+              </div> 
 
         </div>)
   

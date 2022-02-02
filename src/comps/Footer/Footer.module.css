@@ -1,15 +1,32 @@
 
 
-.Footer{
-position: absolute;
-bottom: 0px;
 
-    background-image: url('../../assets/Asset\ 1.svg');
-    background-color: black;
-    background-repeat: repeat;
-    background-size: 15px;
-  
-    height: 1000%;
-    width: 100%;
-opacity: 0.1;
+
+
+
+.Footer{
+
+
+ display: flex;
+ flex-direction: row;
+margin:auto;
+width: 100%;
+background-color: rgba(255, 255, 255, 0.4);
+justify-content: space-around;
+
+height: 30vh;
+
+}
+
+
+.footer_icon{
+
+padding-top:10vh ;
+
+
+width: 70px;
+height: 70px;
+max-width: 70px;
+max-height: 70px;
+
 }

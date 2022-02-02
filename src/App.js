@@ -3,24 +3,24 @@ import classes from './App.module.css';
 import Background from './HOC/Background/Background';
 import NavBar from './comps/NavBar/NavBar';
 import Footer from './comps/Footer/Footer'
-import GridWrap from './comps/GridWrap/GridWrap';
 import SecondBlock from './comps/SecondBlock/SecondBlock';
+import ThirdBlock from './comps/ThirdBlock/ThirdBlock';
+import AboutMe from './comps/AboutMe/AboutMe';
+
+
 function App() {
-  return (
-    <div className={classes.App}>
+  return (<div className={classes.App}>
 
-
-  
-<NavBar/>
-
-<Landing/>
 
 <Background>
- 
+  {/* <NavBar/> */}
+   <Landing/>
 <SecondBlock/>
-<SecondBlock/>
-     <GridWrap/>
+<ThirdBlock/>
+<AboutMe/>
+<Footer/>
 </Background>
+
 
 
     </div>

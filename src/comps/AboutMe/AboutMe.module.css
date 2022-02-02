@@ -1,0 +1,160 @@
+
+
+
+.AboutMe{
+    margin-top: 20vh;
+    width: 100%;
+    background-color: rgba(18, 53, 91, 0.3);
+   
+}
+
+
+
+
+.orangeStripe{
+    padding: 5vh 0;
+    background-color: rgba(255, 87, 10, 0.31);
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: Comfortaa;
+    opacity: 0.8;
+    
+}
+
+.content{
+    padding: 2vh;
+  
+    height:100%;
+    max-width: 100%;
+    margin: auto;
+    font-family: 'Comfortaa';
+    color: white;
+}
+
+
+.languagesContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.personalityTitle{
+   max-width: 70%;
+   padding-bottom: 4vh;
+    margin: auto;
+       font-size: 3.5rem;
+    
+}
+
+
+.personalityTitle2{
+   max-width: 70%;
+   padding-bottom: 2.56vh;
+    margin: auto;
+       font-size: 3.5rem;
+    
+}
+
+
+.personalityParagraph{
+    max-width: 70%;
+    margin: auto;
+      font-size: 1.3em;
+    line-height: 2.031;
+     margin-bottom: 10vh;
+}
+
+
+.languagesContainer{
+    font-family: Comfortaa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 40%;
+    font-size: 1.5em;
+}
+
+
+.languages{
+
+    font-weight: 0;
+
+}
+
+.languagesContainer > div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+.bottomBlock{
+    max-width: 65%;
+    margin:auto;
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.palmTree_container{
+margin: auto;
+margin-right: 0;
+
+}
+
+.palmTree{
+height: 430px;
+margin-bottom: -3.5px;
+
+}
+
+
+
+@media(max-width:1000px){
+
+
+    .personalityTitle{
+
+
+
+       font-size: 2em;
+    
+}
+
+
+.personalityTitle2{
+ 
+  
+
+       font-size: 1.3rem;
+    
+}
+
+.personalityParagraph{
+
+    font-size: 1em;
+    line-height: 2.53;
+    max-width: 98%;
+}
+
+
+
+
+
+
+.palmTree{
+opacity: 0.4;
+
+}
+
+}
+
