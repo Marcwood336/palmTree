@@ -24,7 +24,6 @@ const NavBar = (props)=>{
     </div>
 
 
-
     <div className={props.screenState.menuState ? classes.menuBlockOn : classes.menuBlockOff}>
         <div className={classes.menuOn} >
                         WORKING ON IT
