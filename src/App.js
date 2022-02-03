@@ -6,15 +6,55 @@ import Footer from './comps/Footer/Footer'
 import SecondBlock from './comps/SecondBlock/SecondBlock';
 import ThirdBlock from './comps/ThirdBlock/ThirdBlock';
 import AboutMe from './comps/AboutMe/AboutMe';
-
+import {useState} from 'react'
 
 function App() {
-  return (<div className={classes.App}>
 
 
-<Background>
-  {/* <NavBar/> */}
-   <Landing/>
+const screenStateInitial = {
+    menuState:false,
+    loginBannerState:false
+}
+
+
+const [screenState,setScreenState] = useState(screenStateInitial);
+
+
+
+
+
+function loginToggle(){
+
+
+setScreenState((prevState,nextState)=>{
+console.log(prevState);
+    return {loginBannerState:!prevState.loginBannerState}
+})}
+
+
+
+function menuOpen(){
+ 
+setScreenState((prevState,nextState)=>{
+
+
+             return ({menuState:!prevState.menuState})
+})}
+
+
+
+function menuClose(){
+   
+setScreenState(()=>{
+             return {menuState:false}
+})}
+
+return (<div className={classes.App}>
+
+
+<Background  menuState={screenState.menuState} >
+<NavBar openLogin={loginToggle} menuClose={menuClose} menuOpen={menuOpen} screenState={screenState}  />
+<Landing />
 <SecondBlock/>
 <ThirdBlock/>
 <AboutMe/>

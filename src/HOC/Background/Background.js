@@ -3,7 +3,10 @@ import React from 'react'
 
 const Background = (props)=>{
 
-return(<div className={classes.Background}>
+
+      const menuState = props.menuState
+
+return(<div onClick={props.menuClose}  className={classes.Background}>
 
               <div className={classes.secondLayerBG} >
 
