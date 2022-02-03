@@ -4,25 +4,18 @@
 .AboutMe{
     margin-top: 20vh;
     width: 100%;
-    background-color: rgba(18, 53, 91, 0.4);
-    padding:15vh 0 0 0
+    background-color: rgba(18, 53, 91, 0.8);
+    padding:15vh 0 0 0;
+    border-top: 37.5px solid #FF570A
     
 }
 
 
 
 
-.orangeStripe{
-    padding: 5vh 0;
-    background-color: rgba(255, 87, 10, 0.31);
-    max-width: 100%;
-    margin: auto;
-    text-align: center;
-    color: white;
-    font-family: Comfortaa;
-    opacity: 0.8;
-    
-}
+
+
+
 
 .content{
     padding: 2vh;

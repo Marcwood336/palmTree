@@ -32,7 +32,7 @@ Today's technologies evolve at a quicker rate each year. Nowadays is fundamental
                 <div>NPM</div>
                 <div>Git</div>
                 <div>GitHub</div>
-                <div>GitHub</div>
+                <div>Heroku</div>
                
                 </div>
         </div>

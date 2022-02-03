@@ -5,10 +5,10 @@
     width: 100%;
     background-image: linear-gradient(black,black,#420039);
     position: absolute;
-    z-index: -10;
-    margin: 0px;
-      
   
+    margin: 0px;
+     
+    z-index: -1;
 }
 
 .secondLayerBG{
@@ -19,11 +19,9 @@
     background-image: url('../../assets/whiteSquare5.svg');
     
     background-size: 12.5px;
-    z-index: -9;
- 
+  z-index: -1;
     margin: 0px;
-    animation-name: appear;
-    animation-duration:1s ;
+
     
 }
 
