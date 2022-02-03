@@ -21,7 +21,7 @@ const AboutMe = ()=>{
                 </p>
             </div>
           </div>
-<div className={classes.bottomBlock}>
+{/* <div className={classes.bottomBlock}>
           <div className={classes.languagesContainer}>
                 <div className={classes.languages} >
                      <p>Italian</p>
@@ -43,7 +43,7 @@ const AboutMe = ()=>{
              <img className={classes.palmTree} src={palmTree} />
          </div>
 
-   </div>      
+   </div>       */}
 
     </div>)
 }

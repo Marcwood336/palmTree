@@ -12,9 +12,9 @@ const SecondBlock = ()=>{
     <div>React JS</div>
     <div>Node JS</div>
     <div>Express JS</div>
-    <div>Mongo DB</div>
-    <div>CSS</div>
     <div>HTML5</div>
+    <div>CSS</div>
+    <div>Mongo DB</div>
     <div>Git</div>
     <div>Heroku</div>
  

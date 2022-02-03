@@ -39,8 +39,8 @@
     display: flex;
     flex-direction: row;
    
-    justify-content: space-between;
-    max-width: 100%;
+    justify-content: space-around;
+    max-width: 80%;
     margin: auto;
     flex-wrap: wrap;
 
@@ -51,11 +51,12 @@
  
     max-width: 70%;
     margin-top: 5vh;
-    color: black;
+    color: #420039;
     background-color: white;
-    padding: 20px;
+    padding: 13px;
+    margin-right: 5px;
     border-radius: 20px;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: Comfortaa;
     font-weight: 900;
     
@@ -91,11 +92,11 @@
 
    .skillsContainer {
 
-       display: flex;
+
 
    
-    justify-content: space-around;
-    max-width: 100%;
+    justify-content: space-evenly;
+    max-width: 80%;
     margin: auto;
   
 } 
@@ -106,7 +107,7 @@
 margin: auto;
 
 margin-top: 10px;
-    font-size: 1em;
+font-size: 1em;
   
     
 }

@@ -15,7 +15,7 @@
 .ThirdBlock > div {
 max-width: 30vw;
 padding: 5vh ;
-
+align-self: flex-end;
     
 }
 
@@ -28,6 +28,7 @@ padding: 5vh ;
     max-width: 100%;
     margin: auto;
     flex-wrap: wrap;
+  
 
 }
 
@@ -38,12 +39,12 @@ padding: 5vh ;
     margin-top: 5vh;
     color: black;
     background-color: white;
-    padding: 20px;
+    padding: 13px;
     border-radius: 20px;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: Comfortaa;
     font-weight: 900;
-    
+   
 }
 
 
@@ -51,6 +52,7 @@ padding: 5vh ;
 
 .title{
    font-size: 3.5rem;
+
    
 }
 
@@ -62,6 +64,9 @@ padding: 5vh ;
  
 
 }
+
+
+
 
 
 
@@ -100,13 +105,48 @@ padding: 5vh ;
 }
 
 
+
+
+
+
+
+
 .skillsContainer{
 
+   
+    justify-content: space-around;
+    max-width: 80%;
+    margin: auto;
+  
+}
 
-    justify-content: space-evenly;
- 
 
+.skillsContainer >div{
+
+margin: auto;
+
+margin-top: 10px;
+    font-size: 1em;
+  
+    
+}
+
+}    
+/* end 1000px */
+
+
+@media(max-width:1700px){
+
+   .ThirdBlock{
+        flex-direction: column;
+        max-width: 80%;
+    }
+
+     .ThirdBlock > div{
+        max-width: 100%;
+        
+    }
 
 }
 
-}
+/* end 1700px */
