@@ -3,9 +3,9 @@
 .SecondBlock{
 
     box-sizing: border-box;
-    max-width:70% ;
+    max-width:90% ;
     margin: auto;
-    padding: 5vh 0vh 10vh 0;
+    padding: 30px
    
 }
 
@@ -66,10 +66,6 @@
 
 @media (max-width:1000px){
 
-
-    .SecondBlock{
-        max-width: 80%;
-    }
 .title{
     font-size: 2em;
    

@@ -2,8 +2,8 @@
 
 .ThirdBlock{
     color: white;
-    padding: 5vh 0;
-    max-width: 70%;
+    padding: 30px;
+    max-width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -13,7 +13,7 @@
 }
 
 .ThirdBlock > div {
-max-width: 30vw;
+/* max-width: 30vw; */
 align-self: flex-end;
     
 }
