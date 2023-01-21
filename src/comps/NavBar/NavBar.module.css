@@ -7,7 +7,7 @@
     height: 15vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     flex-direction: row;
     margin: auto;
     box-sizing: border-box;
@@ -38,7 +38,7 @@
     width: 100%;
     z-index: 11;
     animation: slideDown;
-    animation-duration: 1s;
+    animation-duration: 0.3s;
     
 }
 
@@ -69,13 +69,6 @@
     height: 100%;
 }
 
-.login{
-    margin-right: 5vh;
-    margin-top: 5vh;
-    font-weight: 900;
-        
-
-}
 
 .burgerMenuItem{
     border-radius: 100px;
@@ -91,7 +84,11 @@
 .login{
     font-family: Comfortaa;
     color: black;
-    font-size: 1.3em
+    font-size: 10pt;
+    margin-right: 5vh;
+    margin-top: 5vh;
+    font-weight: 900;
+    cursor: pointer;
 }
 
 
@@ -180,10 +177,7 @@ margin: auto;
 
 
 @media(max-width:1000px){
-    .login{
-  
-    font-size: 1em
-}
+
 
 .burgerMenuItem{
  

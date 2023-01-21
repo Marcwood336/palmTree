@@ -1,23 +1,20 @@
-.Landing{
-    margin: 0px;
-   position: relative;
-   top: 0px;
-   width: 100%;
-   z-index: -2;
+.Landing {
+  margin: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  z-index: -2;
+}
+
+.photo {
+  z-index: -2;
+  height: auto;
+  width: 100%;
 }
 
 
-.photo{
- z-index: -2;
-height: auto;
-width: 100%;
 
-}
-
-
-
-.blackBlock{
-   
+.blackBlock {
   margin-top: -20px;
   position: relative;
   background-color: black;
@@ -25,92 +22,63 @@ width: 100%;
   height: 40vh;
 
   opacity: 0.2;
-  
 }
 
-
-.nameContainer{
-
-    position: absolute;
-    top: 24vw;
-    left: 5vh;
-    color: black;
-
-   
-  
-
+.nameContainer {
+  position: absolute;
+  top: 24vw;
+  left: 5vh;
+  color: black;
 }
 
-
-.myName{
-    font-family: Comfortaa;
-    font-size: 2.5em;
-    font-weight: 900;
+.myName {
+  font-family: Comfortaa;
+  font-size: 2.5em;
+  font-weight: 900;
 }
 
-.developerTag{
-    font-weight: 10;
-    margin-top: -25px;
-    font-family: Comfortaa;
-    font-size: 1em;
-    letter-spacing: 0.59em;
+.developerTag {
+  font-weight: 10;
+  margin-top: -25px;
+  font-family: Comfortaa;
+  font-size: 1em;
+  letter-spacing: 0.59em;
 }
 
-
-
-
-
-@media (max-width:1700px) {
-
-
-.nameContainer{
-
+@media (max-width: 1700px) {
+  .nameContainer {
     position: absolute;
     top: 20vw;
     left: 120px;
     color: black;
-    
+
     margin: auto;
-
-}
-    
+  }
 }
 
-
-
-@media (max-width:1000px) {
-
-
-
-.nameContainer{
-    
-    
+@media (max-width: 1000px) {
+  .nameContainer {
     position: relative;
-top: 0;
-left: 0;
-padding-top: 30%;
- color: white;
+    top: 0;
+    left: 0;
+    padding-top: 30%;
+    color: white;
     z-index: 20;
     margin: auto;
- 
+
     margin-top: -20px;
     text-align: center;
-      background-color: black;
+    background-color: black;
+  }
 
-}
-
-
-.myName{
-    
-
+  .myName {
     font-family: Comfortaa;
     font-size: 1.7em;
     margin: 0;
     padding: 0;
-    
-}
+  }
 
-.developerTag{
+  .developerTag {
     margin: 0;
     background-color: black;
     font-weight: 10;
@@ -118,19 +86,9 @@ padding-top: 30%;
     font-family: Comfortaa;
     font-size: 0.8em;
     letter-spacing: 0.5em;
-}
+  }
 
-.blackBlock{
+  .blackBlock {
     height: 60vh;
- 
+  }
 }
-
-
-
-    
-}
-
-
-
-
-
