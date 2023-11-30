@@ -37,7 +37,7 @@ const SecondBlock = () => {
 
             <div className={classes.skillsContainer} >
 
-                <div>  <img src={crownIcon} />Figma</div>
+                <div>  <img src={crownIcon} /> Figma</div>
                 <div>Zeppelin</div>
                 <div>Font Awesome</div>
                 <div>Adobe XD</div>
