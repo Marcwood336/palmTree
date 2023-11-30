@@ -7,6 +7,8 @@ import SecondBlock from './comps/SecondBlock/SecondBlock';
 import ThirdBlock from './comps/ThirdBlock/ThirdBlock';
 import AboutMe from './comps/AboutMe/AboutMe';
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
 
@@ -56,6 +58,7 @@ function App() {
 
 
         <Background menuState={screenState.menuState} >
+        <Analytics />
             <NavBar openLogin={loginToggle} menuClose={menuClose} menuOpen={menuOpen} screenState={screenState} />
             <Landing />
             <SecondBlock />
