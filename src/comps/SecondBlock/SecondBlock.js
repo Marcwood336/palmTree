@@ -1,4 +1,6 @@
 import classes from './SecondBlock.module.css';
+//assets import
+import crownIcon from '../../assets/crown-icon.svg'
 
 const SecondBlock = () => {
 
@@ -9,16 +11,21 @@ const SecondBlock = () => {
         <div className={classes.skillsContainer} >
 
             <div>Vanilla JS</div>
-            <div>React JS</div>
+            <div><img src={crownIcon} /> React JS</div>
             <div>Next JS</div>
+            <div> <img src={crownIcon} /> Angular JS</div>
             <div>Node JS</div>
-            <div>Express JS</div>
+            <div> <img src={crownIcon} /> Express JS</div>
+            <div>Docker</div>
             <div>HTML5</div>
-            <div>CSS</div>
+            <div>SCSS</div>
             <div>Mongo DB</div>
+            <div>PostgreSQL</div>
             <div>Git</div>
             <div>Heroku</div>
+            <div>Azure DevOps </div>
             <div>Shopware6</div>
+
 
 
         </div>
@@ -30,11 +37,11 @@ const SecondBlock = () => {
 
             <div className={classes.skillsContainer} >
 
-                <div>Figma</div>
+                <div>  <img src={crownIcon} />Figma</div>
                 <div>Zeppelin</div>
                 <div>Font Awesome</div>
                 <div>Adobe XD</div>
-                <div>Adobe Illustrator</div>
+                <div> <img src={crownIcon} /> Adobe Illustrator</div>
                 <div>Adobe InDesign</div>
                 <div>Adobe Photoshop</div>
 
